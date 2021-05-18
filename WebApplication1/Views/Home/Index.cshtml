@@ -1,0 +1,29 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<br />
+<h2>RSS Feed Reader</h2>
+<hr />
+<br />
+        
+        @if (ViewBag.RSSFeed != null)
+        {
+            foreach (var item in ViewBag.RSSFeed)
+            {
+        
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <img src="..." alt="...">
+                </div>
+                <div class="col-md-8">
+                    <div class="card-body">
+                        <h5 class="card-title">@item.Title</h5>
+                        <p class="card-text">@Html.Raw(item.ImageURL)</p>
+                        <p class="card-text">By @item.Author</p>
+                        <p class="card-text"><small class="text-muted">@item.Published</small></p>
+                    </div>
+                </div>
+            </div>
+        
+            }
+        }

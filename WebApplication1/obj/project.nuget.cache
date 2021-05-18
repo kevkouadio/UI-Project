@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Q6Qs//i3+yBX+wDbwPzH4B5qH3wj9W43pyiDIfvgTxnhEB4Igi2BrSmK8KibG4/t5+2qNkN3bgPiWogAbkHEag==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\kevko\\source\\repos\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\kevko\\.nuget\\packages\\system.servicemodel.syndication\\5.0.0\\system.servicemodel.syndication.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
